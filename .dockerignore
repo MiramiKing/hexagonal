@@ -1,0 +1,9 @@
+.gitignore
+Dockerfile
+Makefile
+pytest.ini
+README.md
+setup.cfg
+data
+local
+.pytest_cache

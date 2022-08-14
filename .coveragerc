@@ -1,0 +1,17 @@
+[run]
+branch = True
+
+omit =
+        app/app.py
+        app/__main__.py
+        app/config/*
+        app/cli/*
+
+[report]
+skip_empty = True
+
+exclude_lines =
+                @abstractmethod
+                case _:
+                def __str__
+                def __repr__
